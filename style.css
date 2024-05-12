@@ -1,0 +1,112 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Supermercado+One&display=swap");
+/*normalización*/
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+/*body*/
+body {
+  background-color: rgb(150, 173, 195);
+  font-family: "Kodchasan", sans-serif;
+  font-weight: bold;
+}
+
+/*nav bar*/
+.nav-link:hover {
+  color: rgb(54, 155, 255);
+}
+
+.logo-whatsapp {
+  color: rgb(131, 131, 131);
+  transition: 0.5s;
+}
+
+.logo-whatsapp:hover {
+  color: rgb(0, 194, 0);
+}
+
+.logo-instagram {
+  color: rgb(131, 131, 131);
+  transition: 0.5s;
+}
+
+.logo-instagram:hover {
+  color: rgb(237, 0, 158);
+}
+
+.logo-facebook {
+  color: rgb(131, 131, 131);
+  transition: 0.5s;
+}
+
+.logo-facebook:hover {
+  color: rgb(8, 74, 255);
+}
+
+.logo-x {
+  color: rgb(131, 131, 131);
+  transition: 0.5s;
+}
+
+.logo-x:hover {
+  color: rgb(0, 0, 0);
+}
+
+.texto-carrusel {
+  color: red;
+  text-shadow: white 2px 2px 3px;
+}
+
+/*sección nuestros trabajos*/
+.nuestros-trabajos {
+  border-radius: 1rem;
+  transition: 0.5s;
+}
+
+.nuestros-trabajos:hover {
+  transform: scale(1.05);
+}
+
+/*logo*/
+.logo {
+  align-items: center;
+  width: 250px;
+  animation: logo 2s ease;
+}
+
+@keyframes logo {
+  from {
+    transform: translateX(-200%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+/*imágenes*/
+img {
+  border-radius: 10px;
+}
+
+/*card*/
+.card {
+  transition: 0.5s ease;
+}
+
+.card:hover {
+  border-radius: 10px;
+  transform: scale(1.02);
+  transition: 0.5s ease;
+}
+.card:hover h5 {
+  font-size: x-large;
+  transition: 0.5s ease;
+  color: hwb(204 33% 0%);
+}
+
+/*formulario*/
+.formulario {
+  max-width: 700px;
+}/*# sourceMappingURL=style.css.map */
