@@ -61,23 +61,35 @@
   <!-- formulario -->
   <section>
     <div class="container formulario">
-      <form>
+      <form action="https://formsubmit.co/fotobrodo@gmail.com" method="POST">
         <legend class="text-center">Contactenos</legend>
           <div class="mb-3">
-            <label for="disabledTextInput" class="form-label">Nombre</label>
-            <input type="text" id="disabledTextInput" class="form-control" placeholder="escriba su nombre" required>
+            <label for="nombre" class="form-label">Nombre</label>
+            <input type="text" name="nombre" id="nombre" class="form-control" placeholder="escriba su nombre" required>
           </div>
           <div class="mb-3">
-            <label for="disabledSelect" class="form-label">Teléfono</label>
-            <input type="tel" id="disabledTextInput" class="form-control" placeholder="Escriba su teléfono" required>
+            <label for="telefono" class="form-label">Teléfono</label>
+            <input type="tel" name="telefono" id="telefono" class="form-control" placeholder="Escriba su teléfono" required>
           </div>
           <div class="mb-3">
-            <label for="disabledSelect" class="form-label">e-mail</label>
-            <input type="email" id="disabledTextInput" class="form-control" placeholder="Escriba su e-mail" required>
+            <label for="mail" class="form-label">e-mail</label>
+            <input type="email" name="mail" id="mail" class="form-control" placeholder="Escriba su e-mail" required>
           </div>
           <div clas="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label">Escriba su consulta o pedido de presupuesto</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Escriba su consulta" required></textarea>
+            <label for="comentario" class="form-label">Escriba su consulta o pedido de presupuesto</label>
+            <textarea class="form-control" name="comentario" id="comentario" rows="3" placeholder="Escriba su consulta" required></textarea>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" value="no" type="radio" name="tieneWeb" id="tieneWeb" checked>
+            <label class="form-check-label" for="tieneWeb">
+              No tengo una página web
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" value="si" type="radio" name="tieneWeb" id="tieneWeb">
+            <label class="form-check-label" for="tieneWeb">
+              Ya tengo una página web
+            </label>
           </div>
           <br>
           <div class="text-center">
@@ -91,7 +103,7 @@
 
   <!-- footer -->
   <footer class="text-center bg-dark mt-5">
-    <p class="text-white p-3 m-0"> &copy; Pagina creada por Vanesa y Pablo para CaC 2024</p>
+    <p class="text-white p-3 m-0"> &copy; Pagina creada por Vanesa Soria y Pablo Brodovski para CaC 2024</p>
   </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
